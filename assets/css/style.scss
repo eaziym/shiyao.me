@@ -1,0 +1,153 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.site-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .profile-content {
+    flex: 1;
+  }
+}
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.metric-card {
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  
+  .metric-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0366d6;
+  }
+  
+  .metric-label {
+    margin-top: 0.5rem;
+    color: #586069;
+  }
+}
+
+.project {
+  max-width: 800px;
+  margin: 0 auto;
+  
+  .tags {
+    margin: 1rem 0;
+    
+    .tag {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      margin: 0.25rem;
+      background: #e1e4e8;
+      border-radius: 2rem;
+      font-size: 0.875rem;
+    }
+  }
+}
+
+.project-preview {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 1.5rem;
+  
+  .project-image img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .project-content {
+    h2 {
+      margin-top: 0;
+      
+      a {
+        color: #24292e;
+        text-decoration: none;
+        
+        &:hover {
+          color: #0366d6;
+        }
+      }
+    }
+  }
+  
+  .metrics-preview {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    
+    .metric {
+      .value {
+        font-weight: bold;
+        color: #0366d6;
+      }
+      
+      .label {
+        margin-left: 0.5rem;
+        color: #586069;
+      }
+    }
+  }
+}
+
+.project-figure {
+  margin: 2rem 0;
+  
+  img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  figcaption {
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #586069;
+  }
+}
+
+.demo-button {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  background: #0366d6;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  
+  &:hover {
+    background: #0256b4;
+    color: white;
+  }
+}

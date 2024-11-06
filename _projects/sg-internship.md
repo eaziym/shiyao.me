@@ -1,11 +1,12 @@
 ---
 layout: project
 title: SG Internship Listing
+date: 2024-04-01
 tags:
   [Web Scraping, Data Analytics, Python, Selenium, Bing API, Community Building]
 problem: "Job searching process is fragmented and time-consuming, with students spending hours manually searching across multiple platforms and filling repetitive applications"
 approach: "Built an automated job aggregation platform that consolidates opportunities across 250+ companies, with weekly updates and a growing community of 380+ students"
-demo_url: "https://github.com/eaziym/sg-internship-listing"
+demo_url: "https://eaziym.github.io/sg-internship-listing"
 metrics:
   - label: Company Count
     value: "250+"
@@ -13,6 +14,10 @@ metrics:
     value: "1000+"
   - label: Community Size
     value: "380+"
+cover_image: /assets/images/sg-intern-cover.png
+images:
+  - path: /assets/images/sg-intern-jobs.png
+    caption: Jobs View
 ---
 
 ## The Journey
@@ -53,8 +58,8 @@ Focused on core functionality:
 
 #### Data Collection Pipeline
 
-1. **Company Career Pages Scraping**
-   Example from our database showing diverse roles:
+**Company Career Pages Scraping**
+Example from our database showing diverse roles:
 
 | Company | Position                                 | Category           |
 | ------- | ---------------------------------------- | ------------------ |
@@ -62,7 +67,7 @@ Focused on core functionality:
 | PWC     | Technology - Risk Services (Cloud Trust) | Product Innovation |
 | PWC     | Digital Innovation Garage                | Assurance          |
 
-2. **Bing API Integration**
+**Bing API Integration**
 
 ```python
 def search_job_link(company, position):
@@ -73,7 +78,7 @@ def search_job_link(company, position):
     return results['webPages']['value'][0]['url']
 ```
 
-3. **Data Processing**
+**Data Processing**
 
 - Automated deduplication
 - Category classification
@@ -86,19 +91,19 @@ def search_job_link(company, position):
 
 Based on actual listings:
 
-1. **Technology & Innovation**
+**Technology & Innovation**
 
 - Digital Audit
 - Cloud Trust Services
 - Process Automation
 
-2. **Risk & Assurance**
+**Risk & Assurance**
 
 - Data Trust Services
 - Digital Client Services
 - ESG Advisory
 
-3. **Strategy & Operations**
+**Strategy & Operations**
 
 - Digital Ventures
 - Change Management
@@ -122,26 +127,26 @@ Based on actual listings:
 
 ### 6. Technical Stack
 
-1. **Web Scraping**
+**Web Scraping**
 
 - Selenium for dynamic content
 - BeautifulSoup for parsing
 - Rotating proxies for reliability
 
-2. **Search Integration**
+**Search Integration**
 
 - Bing API for direct links
 - Custom search query optimization
 - Rate limiting implementation
 
-3. **Data Management**
+**Data Management**
 
 - Automated deduplication
 - Category classification
 - Weekly update automation
 - Version control
 
-4. **Distribution**
+**Distribution**
 
 - GitHub Pages hosting
 - Markdown generation
@@ -150,21 +155,21 @@ Based on actual listings:
 
 ### 7. Key Learnings
 
-1. **Project Scope**
+**Project Scope**
 
 - Start with core features
 - Validate with user feedback
 - Iterate based on usage
 - Focus on reliability
 
-2. **Technical Challenges**
+**Technical Challenges**
 
 - Rate limiting handling
 - Data consistency
 - Link validation
 - Update automation
 
-3. **Community Building**
+**Community Building**
 
 - Value of user feedback
 - Importance of regular updates

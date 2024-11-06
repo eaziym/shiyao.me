@@ -1,10 +1,11 @@
 ---
 layout: project
 title: Potato Audit
+date: 2024-03-20
 tags: [Python, React, Flask, OCR, Computer Vision, Web Automation]
 problem: "Auditors manually processing thousands of documents and announcements, leading to inefficiencies and potential errors"
 approach: "Built an end-to-end automation solution with multiple iterations, ultimately landing on an interactive web interface for document processing"
-demo_url: "https://github.com/yourusername/potato-audit"
+demo_url: "https://github.com/eaziym/potato-audit-public"
 metrics:
   - label: Processing Time Reduction
     value: "95%"
@@ -12,6 +13,10 @@ metrics:
     value: "~100%"
   - label: Documents/Day
     value: "1000+"
+cover_image: /assets/images/potato-audit.png
+images:
+  - path: /assets/images/potato-audit-interface.png
+    caption: Main interface
 ---
 
 ## The Journey
@@ -168,4 +173,5 @@ Built a scalable scraping system:
 - Email Integration: SMTP
 - PDF Processing: PyMuPDF
 
-[View on GitHub](https://github.com/yourusername/potato-audit)
+[View on GitHub](https://github.com/eaziym/potato-audit-public)
+[View PDF Introduction](/assets/docs/Potato_Audit_Manual.pdf)

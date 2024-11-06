@@ -26,9 +26,11 @@ layout: default
     {{ content }}
   </section>
 
-  {% if page.demo_url %}
-    <a href="{{ page.demo_url }}" class="demo-button">View Demo</a>
-  {% endif %}
+  <section class="demo">
+    {% if page.demo_url %}
+      <a href="{{ page.demo_url }}" class="demo-button">View Demo</a>
+    {% endif %}
+  </section>
 
   <section class="metrics">
     <h2>Impact Metrics</h2>
@@ -43,4 +45,17 @@ layout: default
       </div>
     {% endif %}
   </section>
+
+  <section class="project-images">
+    {% for image in page.images %}
+      <figure class="project-figure">
+        <img src="{{ image.path | relative_url }}" alt="{{ image.caption }}">
+        {% if image.caption %}
+          <figcaption>{{ image.caption }}</figcaption>
+        {% endif %}
+      </figure>
+    {% endfor %}
+  </section>
+
+
 </article>

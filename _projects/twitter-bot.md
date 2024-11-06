@@ -1,6 +1,7 @@
 ---
 layout: project
 title: DreamSchool Twitter Auto-Reply Bot
+date: 2024-05-02
 tags:
   [
     Python,
@@ -20,6 +21,10 @@ metrics:
     value: "98%"
   - label: Avg Response Time
     value: "<2min"
+cover_image: /assets/images/twitter-bot-home.png
+images:
+  - path: /assets/images/twitter-bot.png
+    caption: Dashboard
 ---
 
 ## The Journey
