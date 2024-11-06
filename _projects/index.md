@@ -6,7 +6,8 @@ permalink: /projects/
 
 # Projects
 
-{% for project in site.projects %}
+{% assign filtered_projects = site.projects | where_exp: "project", "project.title != 'Projects'" %}
+{% for project in filtered_projects %}
 
 <div class="project-preview">
   <div class="project-image">

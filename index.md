@@ -5,7 +5,7 @@ profile_image: /assets/images/me.jpeg
 ---
 
 <div class="profile-header">
-  <img src="{{ '/shiyao.me/assets/images/me.jpeg' | relative_url }}" alt="Shiyao Meng" class="profile-image">
+  <img src="{{ '/assets/images/me.jpeg' | relative_url }}" alt="Shiyao Meng" class="profile-image">
   <div class="profile-content">
     <h1>Hi, I'm Shiyao 👋</h1>
 
