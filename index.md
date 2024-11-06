@@ -5,7 +5,7 @@ profile_image: /assets/images/me.jpeg
 ---
 
 <div class="profile-header">
-  <img src="{{ page.profile_image }}" alt="Shiyao Meng" class="profile-image">
+  <img src="{{ '/assets/images/me.jpeg' | relative_url }}" alt="Shiyao Meng" class="profile-image">
   <div class="profile-content">
     <h1>Hi, I'm Shiyao 👋</h1>
 
@@ -25,6 +25,7 @@ profile_image: /assets/images/me.jpeg
 {% if site.projects and site.projects.size > 0 %}
 {% assign featured_projects = site.projects | sort: 'date' | reverse | limit: 3 %}
 {% for project in featured_projects %}
+
 <div class="project-preview">
 <div class="project-image">
 {% if project.cover_image %}

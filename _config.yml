@@ -1,6 +1,7 @@
 title: Shiyao Meng
 description: trying to solve interesting problems
 baseurl: ""
+url: "https://eaziym.github.io/shiyao.me"
 repository: eaziym/shiyao.me
 github_username: eaziym
 linkedin_username: shiyao-meng
@@ -38,6 +39,6 @@ minimal:
     github: eaziym
   navigation:
     - title: Projects
-      url: /projects
+      url: /shiyao.me/projects
     - title: GitHub
       url: https://github.com/eaziym
