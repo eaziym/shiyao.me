@@ -1,0 +1,16 @@
+title: Shiyao Meng
+description: trying to solve interesting problems
+baseurl: ""
+repository: eaziym/shiyao.me
+github_username: eaziym
+
+# Build settings
+markdown: kramdown
+theme: minima # or your preferred theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+author:
+  name: Shiyao Meng
+  email: e0773600@u.nus.edu
