@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projects
-permalink: /shiyao.me/projects/
+permalink: /projects/
 ---
 
 # Projects
