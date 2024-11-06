@@ -15,9 +15,9 @@ metrics:
     value: "1000+"
   - label: Community Size
     value: "380+"
-cover_image: /shiyao.me/assets/images/sg-intern-cover.png
+cover_image: /assets/images/sg-intern-cover.png
 images:
-  - path: /shiyao.me/assets/images/sg-intern-jobs.png
+  - path: /assets/images/sg-intern-jobs.png
     caption: Jobs View
 ---
 

@@ -14,9 +14,9 @@ metrics:
     value: "~100%"
   - label: Documents/Day
     value: "1000+"
-cover_image: /shiyao.me/assets/images/potato-audit.png
+cover_image: /assets/images/potato-audit.png
 images:
-  - path: /shiyao.me/assets/images/potato-audit-interface.png
+  - path: /assets/images/potato-audit-interface.png
     caption: Main interface
 ---
 

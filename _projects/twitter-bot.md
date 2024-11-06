@@ -22,9 +22,9 @@ metrics:
     value: "98%"
   - label: Avg Response Time
     value: "<2min"
-cover_image: /shiyao.me/assets/images/twitter-bot-home.png
+cover_image: /assets/images/twitter-bot-home.png
 images:
-  - path: /shiyao.me/assets/images/twitter-bot.png
+  - path: /assets/images/twitter-bot.png
     caption: Dashboard
 ---
 
