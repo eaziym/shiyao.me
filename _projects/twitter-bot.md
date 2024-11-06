@@ -54,7 +54,7 @@ Instead of multiple promotional bots, I proposed:
 
 #### Core Architecture
 
-1. **Twitter Integration**
+**Twitter Integration**
 
 ```python
 def generate_openai_prompt(conversation, users_info, my_id):
@@ -74,7 +74,7 @@ def generate_openai_prompt(conversation, users_info, my_id):
     return messages
 ```
 
-2. **Conversation Management**
+**Conversation Management**
 
 ```python
 def post_replies(conversations_data, users_info, my_client, my_id):
@@ -96,7 +96,7 @@ def post_replies(conversations_data, users_info, my_client, my_id):
 
 #### Backend Architecture
 
-1. **Server Setup**
+**Server Setup**
 
 ```python
 app = FastAPI()
@@ -117,7 +117,7 @@ async def get_conversations():
     return {"conversations": conversations}
 ```
 
-2. **Analytics Processing**
+**Analytics Processing**
 
 ```python
 def process_analytics(conversations):
@@ -137,14 +137,14 @@ def process_analytics(conversations):
 
 ### 4. Key Features
 
-1. **Intelligent Conversation Management**
+**Intelligent Conversation Management**
 
 - Context-aware responses using OpenAI
 - Conversation thread reconstruction
 - User background consideration
 - Rate limit compliance
 
-2. **Analytics Dashboard**
+**Analytics Dashboard**
 
 - Real-time conversation tracking
 - User engagement metrics
@@ -152,7 +152,7 @@ def process_analytics(conversations):
 - Message trend analysis
 - User interaction history
 
-3. **Security & Compliance**
+**Security & Compliance**
 
 - API-based interactions
 - Rate limit monitoring
@@ -193,3 +193,5 @@ Based on the conversation data:
 - Error handling in distributed systems
 
 [View on GitHub](private)
+
+Note: this project is private due to NDA.
