@@ -23,7 +23,8 @@ profile_image: /assets/images/me.jpeg
 ## Featured Projects
 
 {% if site.projects and site.projects.size > 0 %}
-{% assign featured_projects = site.projects | sort: 'date' | reverse | limit: 3 %}
+{% assign filtered_projects = site.projects | where_exp: "project", "project.title != 'Projects'" %}
+{% assign featured_projects = filtered_projects | sort: 'date' | reverse | limit: 3 %}
 {% for project in featured_projects %}
 
 <div class="project-preview">
