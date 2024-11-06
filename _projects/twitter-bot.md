@@ -13,6 +13,7 @@ tags:
   ]
 problem: "Initial request to create multiple promotional bots, which could harm brand credibility and violate platform policies"
 approach: "Developed a single, verified, AI-powered bot that provides meaningful interactions while maintaining brand integrity"
+url: /shiyao.me/projects/twitter-bot
 demo_url: "private"
 metrics:
   - label: Daily Interactions

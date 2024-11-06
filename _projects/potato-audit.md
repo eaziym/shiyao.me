@@ -5,6 +5,7 @@ date: 2024-03-20
 tags: [Python, React, Flask, OCR, Computer Vision, Web Automation]
 problem: "Auditors manually processing thousands of documents and announcements, leading to inefficiencies and potential errors"
 approach: "Built an end-to-end automation solution with multiple iterations, ultimately landing on an interactive web interface for document processing"
+url: /shiyao.me/projects/potato-audit
 demo_url: "https://github.com/eaziym/potato-audit-public"
 metrics:
   - label: Processing Time Reduction

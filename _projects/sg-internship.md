@@ -6,6 +6,7 @@ tags:
   [Web Scraping, Data Analytics, Python, Selenium, Bing API, Community Building]
 problem: "Job searching process is fragmented and time-consuming, with students spending hours manually searching across multiple platforms and filling repetitive applications"
 approach: "Built an automated job aggregation platform that consolidates opportunities across 250+ companies, with weekly updates and a growing community of 380+ students"
+url: /shiyao.me/projects/sg-internship
 demo_url: "https://eaziym.github.io/sg-internship-listing"
 metrics:
   - label: Company Count
