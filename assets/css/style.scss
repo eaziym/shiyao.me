@@ -3,6 +3,14 @@
 
 @import "{{ site.theme }}";
 
+.wrapper {
+  width: fit-content;
+}
+
+.site-header {
+  width: fit-content;
+}
+
 .site-body {
   display: flex;
   flex-direction: column;
@@ -12,11 +20,17 @@
 .site-nav {
   display: flex;
   flex-direction: column;
+  width: fit-content;
 }
 
 .page-link {
   width: fit-content;
   display: inline-block;
+}
+
+.page-content {
+  margin-left: 15%;
+  width: fit-content;
 }
 
 .profile-header {
