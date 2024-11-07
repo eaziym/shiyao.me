@@ -14,6 +14,11 @@
   flex-direction: column;
 }
 
+.page-link {
+  width: fit-content;
+  display: inline-block;
+}
+
 .profile-header {
   display: flex;
   align-items: center;
@@ -149,5 +154,90 @@
   &:hover {
     background: #0256b4;
     color: white;
+  }
+}
+
+.resume-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 1.5rem 0 0.5rem;
+
+    h3 {
+      margin: 0;
+      color: #0366d6;
+      font-weight: 600;
+    }
+
+    .job-date {
+      color: #586069;
+      font-style: italic;
+    }
+  }
+
+  .job-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #24292e;
+    font-style: italic;
+    margin: 0.5rem 0;
+  }
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.resume-title {
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .contact-info {
+    color: #586069;
+    margin-top: 0.5rem;
+  }
+}
+
+.download-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #0366d6;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  
+  &:hover {
+    background: #024ea4;
+    color: white;
+  }
+}
+
+.resume-container {
+  h2 {
+    color: #24292e;
+    border-bottom: 1px solid #e1e4e8;
+    padding-bottom: 0.5rem;
+    margin: 2rem 0 1rem;
+  }
+  
+  h3 {
+    color: #0366d6;
+    margin: 1.5rem 0 0.5rem;
+  }
+  
+  ul {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
   }
 }
