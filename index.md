@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Home
-profile_image: /assets/images/me.jpeg
+profile_image: /assets/images/hi.png
 ---
 
 <div class="profile-header">
-  <img src="{{ '/assets/images/me.jpeg' | relative_url }}" alt="Shiyao Meng" class="profile-image">
+  <img src="{{ '/assets/images/hi.png' | relative_url }}" alt="Shiyao Meng" class="profile-image">
   <div class="profile-content">
     <h1>Hi, I'm Shiyao 👋</h1>
 
