@@ -255,3 +255,88 @@
     padding-left: 1.5rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .page-content {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .wrapper {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .site-body {
+    padding: 0;
+    width: 93%;
+    margin: 0;
+  }
+
+  .site-header {
+    width: 100%;
+    padding: 1rem;
+    
+    .wrapper {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+    
+    .site-nav {
+      flex-direction: row;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  .profile-header {
+    flex-direction: column;
+    text-align: center;
+    
+    .profile-image {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  .project-preview {
+    grid-template-columns: 1fr;
+    
+    .project-image {
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  }
+
+  .resume-container {
+    padding: 1rem;
+    
+    .resume-header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 1rem;
+    }
+  }
+
+  .metrics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .job-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+    
+    span:last-child {
+      font-size: 0.9rem;
+      color: #586069;
+    }
+  }
+}
