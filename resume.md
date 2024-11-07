@@ -30,7 +30,7 @@ Bachelor of Business Administration, Honours (Distinction)
 - Collaborate with CTO on product and UI design for Distributed Inference API system
 - Develop official Twitter Bot and intuitive frontend dashboard for bot status monitoring as end-to-end marketing tool with sentimental analysis and AB testing for response effectiveness evaluation, leveraging Twitter Dev API, Flask and Next.js, integrating OpenAI API to auto-generate humanized relevant responses (supports up to 1500 responses/day)
 
-### MODULAR ASSET MANAGEMENT, SINGAPORE ($2.3BN AUM)
+### MODULAR ASSET MANAGEMENT, SINGAPORE
 
 <div class="job-title">
   <span>Operations Intern</span>
@@ -48,7 +48,7 @@ Bachelor of Business Administration, Honours (Distinction)
 
 - Directed implementation of 'Potato Audit', an automated software using Flask as backend, Selenium for streamlining repetitive tasks, and React for developing a user-friendly front-end interface accessible by non-technical audit staff
 - Reduced financial announcements and statutory audit processing time from days to sub-10 minutes and semi-automated invoice data extraction of similar formats from manual reviews with 98% accuracy, handling ~28 invoices/min
-- Engineered a new systematic staff booking system to minimize booking errors and enhance resource management efficiency - alerted management about excessive staff booking costs over $2mm for a job with prelim script scanning old system built with Excel
+- Engineered a new systematic staff booking system to minimize booking errors and enhance resource management efficiency
 
 ### JASPER VAULT TECHNOLOGY PTE LTD, SINGAPORE
 
@@ -57,9 +57,9 @@ Bachelor of Business Administration, Honours (Distinction)
   <span>May 2023 - Oct 2023</span>
 </div>
 
-- Developed and optimized dashboards analyzing Ethereum (ETH) Staking, Smart Money holdings and crypto market trends using Dune and Nansen SQL; presented in weekly investment meeting for fund management (+9.8% return since May)
-- Streamlined data retrieval and analysis workflows by integrating various API providers such as Etherscan, CoinMarketCap, Deribit, Mboum Finance using Python/Power Query - example data usage in VIX Risk-Parity strategies (+11.39% 2M return)
-- Researched and backtested AI-powered algorithmic trading with optimized parameters on TradingView (+93.14% net profit on 30m timeframe for BTC/USDT)
+- Developed and optimized dashboards analyzing Ethereum (ETH) Staking, Smart Money holdings and crypto market trends using Dune SQL; presented in weekly investment meeting for fund management
+- Streamlined data retrieval and analysis workflows by integrating various API providers using Python/Power Query
+- Researched and backtested AI-powered algorithmic trading with optimized parameters on TradingView
 
 ## Personal Projects
 
