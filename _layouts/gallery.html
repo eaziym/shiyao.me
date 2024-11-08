@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="gallery-container">
+  <header>
+    <h1>{{ page.title }}</h1>
+    <div class="tags">
+      {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  </header>
+
+  <div class="gallery-grid">
+    {% for item in page.gallery_items %}
+      <div class="gallery-item">
+        {% if item.type == 'animation' %}
+          <img src="{{ item.path | relative_url }}" alt="{{ item.caption }}" class="gallery-media">
+        {% else %}
+          <img src="{{ item.path | relative_url }}" alt="{{ item.caption }}" class="gallery-media">
+        {% endif %}
+        <p class="gallery-caption">{{ item.caption }}</p>
+      </div>
+    {% endfor %}
+  </div>
+
+  <section class="gallery-content">
+    {{ content }}
+  </section>
+</article>

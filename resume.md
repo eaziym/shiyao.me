@@ -49,6 +49,7 @@ Bachelor of Business Administration, Honours (Distinction)
 - Directed implementation of 'Potato Audit', an automated software using Flask as backend, Selenium for streamlining repetitive tasks, and React for developing a user-friendly front-end interface accessible by non-technical audit staff
 - Reduced financial announcements and statutory audit processing time from days to sub-10 minutes and semi-automated invoice data extraction of similar formats from manual reviews with 98% accuracy, handling ~28 invoices/min
 - Engineered a new systematic staff booking system to minimize booking errors and enhance resource management efficiency
+- Received commendation for developing innovative automation solutions - [View Testimonial]({{ '/assets/docs/PKF_Testimonial_Letter.pdf' | relative_url }})
 
 ### JASPER VAULT TECHNOLOGY PTE LTD, SINGAPORE
 

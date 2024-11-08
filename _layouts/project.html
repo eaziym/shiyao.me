@@ -11,43 +11,53 @@ layout: default
     </div>
   </header>
 
+  {% if page.problem %}
   <section class="problem">
     <h2>The Problem</h2>
     {{ page.problem }}
   </section>
+  {% endif %}
 
+  {% if page.approach %}
   <section class="approach">
     <h2>My Approach</h2>
     {{ page.approach }}
   </section>
+  {% endif %}
 
+  {% if content %}
   <section class="solution">
-    <h2>The Solution</h2>
     {{ content }}
   </section>
+  {% endif %}
 
-  <section class="demo">
-    {% if page.demo_url %}
-      <a href="{{ page.demo_url }}" class="demo-button">View Demo</a>
-    {% endif %}
-  </section>
-
+  {% if page.metrics %}
   <section class="metrics">
-    <h2>Impact Metrics</h2>
-    {% if page.metrics %}
-      <div class="metrics-grid">
-        {% for metric in page.metrics %}
-          <div class="metric-card">
-            <div class="metric-value">{{ metric.value }}</div>
-            <div class="metric-label">{{ metric.label }}</div>
-          </div>
-        {% endfor %}
-      </div>
-    {% endif %}
+    <h2>
+      Impact Metrics
+    </h2>
+    <div class="metrics-grid">
+      {% for metric in page.metrics %}
+        <div class="metric-card">
+          <div class="metric-value">{{ metric.value }}</div>
+          <div class="metric-label">{{ metric.label }}</div>
+        </div>
+      {% endfor %}
+    </div>
   </section>
+  {% endif %}
 
+  {% if page.images %}
   <section class="project-images">
+    <h2>
+      {% if page.title contains "Art" %}
+        <strong>Work Samples</strong>
+      {% elsif page.title contains "Basketball" %}
+        <strong>Highlights</strong>
+      {% endif %}
+    </h2>
     {% for image in page.images %}
+
       <figure class="project-figure">
         <img src="{{ image.path | relative_url }}" alt="{{ image.caption }}">
         {% if image.caption %}
@@ -56,6 +66,5 @@ layout: default
       </figure>
     {% endfor %}
   </section>
-
-
+  {% endif %}
 </article>
