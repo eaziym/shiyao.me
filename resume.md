@@ -13,7 +13,7 @@ pdf_url: /assets/docs/Meng Shiyao_17102024.pdf
 **NATIONAL UNIVERSITY OF SINGAPORE (NUS)**  
 Bachelor of Business Administration, Honours (Distinction)
 
-- GPA: 4.20/5.00
+- GPA: 4.27/5.00
 - Specialization in Business Analytics
 - Second Major in Data Science and Analytics
 
