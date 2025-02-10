@@ -5,7 +5,7 @@ permalink: /resume/
 author: Shiyao Meng
 phone: +65 8815 6005
 email: e0773600@u.nus.edu
-pdf_url: /assets/docs/Meng Shiyao_17102024.pdf
+pdf_url: /assets/docs/Meng Shiyao_11022025_pw.pdf
 ---
 
 ## Education
@@ -19,14 +19,16 @@ Bachelor of Business Administration, Honours (Distinction)
 
 ## Work Experience
 
-### NEUROMESH FOUNDATION, LONDON
+### [AMMO AI, LONDON](https://ammoai.io/)
 
 <div class="job-title">
   <span>Software Engineer Intern</span>
   <span>Mar 2024 - Present</span>
 </div>
 
-- Code frontend for more than three Labs pages, such as Text2Image, Image2Image, AI Agent under Next.js with UI-backend integration and REST API invocation (see nmesh.io)
+- Develop in-house Dify no-code workflows that streamline multi-agent content generation, increasing throughput from 10min to sub-10s/post and maintain docs for easy onboarding of non-technical marketing and product team members. See [FakersAI](https://fakersai.com/)
+- Prepare PRD and facilitate communications between engineering, marketing, and product teams.
+- Code frontend for more than three Labs pages, such as Text2Image, Image2Image, AI Agent under Next.js with UI-backend integration and REST API invocation. See [NeuroMesh](https://nmesh.io/)
 - Collaborate with CTO on product and UI design for Distributed Inference API system
 - Develop official Twitter Bot and intuitive frontend dashboard for bot status monitoring as end-to-end marketing tool with sentimental analysis and AB testing for response effectiveness evaluation, leveraging Twitter Dev API, Flask and Next.js, integrating OpenAI API to auto-generate humanized relevant responses (supports up to 1500 responses/day)
 
