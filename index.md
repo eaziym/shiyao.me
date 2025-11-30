@@ -29,7 +29,7 @@ profile_image: /assets/images/hi.png
 {% assign featured_projects = filtered_projects | sort: 'date' | reverse | limit: 3 %}
 {% for project in featured_projects %}
 
-<div class="project-preview">
+<div class="project-preview" onclick="window.location.href='{{ project.url | relative_url }}'">
 <div class="project-image">
 {% if project.cover_image %}
 <img src="{{ project.cover_image | relative_url }}" alt="{{ project.title }}">
@@ -46,6 +46,7 @@ profile_image: /assets/images/hi.png
 </div>
 {% endfor %}
 </div>
+<a href="{{ project.url | relative_url }}" class="read-more">View Project →</a>
 </div>
 </div>
 {% endfor %}

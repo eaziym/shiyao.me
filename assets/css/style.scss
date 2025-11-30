@@ -101,10 +101,26 @@
   display: grid;
   grid-template-columns: 200px 1fr;
   gap: 1.5rem;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  
+  &:hover {
+    background: #ffffff;
+    border-color: #0366d6;
+    box-shadow: 0 4px 12px rgba(3, 102, 214, 0.15);
+    transform: translateY(-2px);
+  }
   
   .project-image img {
     width: 100%;
     border-radius: 4px;
+    transition: transform 0.3s ease;
+  }
+  
+  &:hover .project-image img {
+    transform: scale(1.05);
   }
   
   .project-content {
@@ -118,8 +134,32 @@
         &:hover {
           color: #0366d6;
         }
+        
+        &::after {
+          content: " →";
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
       }
     }
+    
+    .read-more {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #0366d6;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        color: #0256b4;
+        transform: translateX(4px);
+      }
+    }
+  }
+  
+  &:hover .project-content h2 a::after {
+    opacity: 1;
   }
   
   .metrics-preview {

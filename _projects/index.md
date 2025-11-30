@@ -9,7 +9,7 @@ permalink: /projects/
 {% assign filtered_projects = site.projects | where_exp: "project", "project.title != 'Projects'" %}
 {% for project in filtered_projects %}
 
-<div class="project-preview">
+<div class="project-preview" onclick="window.location.href='{{ project.url | relative_url }}'">
   <div class="project-image">
     {% if project.cover_image %}
     <img src="{{ project.cover_image | relative_url }}" alt="{{ project.title }}">
@@ -23,7 +23,7 @@ permalink: /projects/
       {% endfor %}
     </div>
     <p>{{ project.problem }}</p>
-    <a href="{{ project.url | relative_url }}" class="read-more">Read More →</a>
+    <a href="{{ project.url | relative_url }}" class="read-more">View Project →</a>
   </div>
 </div>
 {% endfor %}
