@@ -13,7 +13,7 @@ metrics:
     value: "80%"
   - label: Role
     value: "Technology & Analytics Associate"
-cover_image: /assets/images/pkf-analytics-cover.png
+cover_image: /assets/images/pkf.png
 ---
 
 ## Overview
