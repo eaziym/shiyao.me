@@ -159,10 +159,11 @@ Built a scalable scraping system:
 ### 5. Impact
 
 - Reduced document processing time from hours to minutes
-- Achieved near 100% accuracy with human verification
+- Achieved near 100% accuracy with human verification (~98% for invoice processing, ~28 invoices/min)
 - Eliminated manual announcement compilation
 - Standardized output format for audit documentation
 - Scalable to handle thousands of documents daily
+- **Received commendation** for developing innovative automation solutions
 
 ### 6. Technologies Used
 
@@ -174,5 +175,10 @@ Built a scalable scraping system:
 - Email Integration: SMTP
 - PDF Processing: PyMuPDF
 
-[View on GitHub](https://github.com/eaziym/potato-audit-public)
-[View PDF Introduction](/assets/docs/Potato_Audit_Manual.pdf)
+### Recognition
+
+Received official commendation from PKF-CAP LLP for developing innovative automation solutions that significantly improved audit efficiency.
+
+[View on GitHub](https://github.com/eaziym/potato-audit-public)  
+[View PDF Introduction](/assets/docs/Potato_Audit_Manual.pdf)  
+[View Testimonial Letter](/assets/docs/PKF_Testimonial_Letter.pdf)

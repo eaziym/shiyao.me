@@ -7,18 +7,20 @@ profile_image: /assets/images/hi.png
 <div class="profile-header">
   <img src="{{ '/assets/images/hi.png' | relative_url }}" alt="Shiyao Meng" class="profile-image">
   <div class="profile-content">
-    <h1>Hi, I'm Shiyao 👋</h1>
+    <h1>Hi, I'm Shiyao</h1>
 
-    <p>I'm a curious problem solver who leverages AI and automation to create impactful solutions. With a background in both technology and business, I enjoy tackling real-world inefficiencies through innovative approaches.</p>
+    <p>I'm a Technology & Analytics Associate at PKF-CAP LLP, building self-service analytics platforms and workflow automation systems. I specialize in creating AI-powered solutions that streamline operations and enable data-driven decision making. With a background spanning software engineering, data analytics, and business, I turn complex technical challenges into elegant, user-friendly solutions.</p>
 
   </div>
 </div>
 
 ## What I Do
 
-- 🤖 Build AI-powered automation solutions
-- 🛠️ Develop tools that solve practical problems
-- 🌱 Grow communities and share knowledge
+- Build self-service analytics platforms with RBAC and automated workflows
+- Develop AI-powered automation systems (LLM agents, RAG, n8n workflows)
+- Create full-stack web applications (Next.js, React, Flask, Python)
+- Integrate real-time data pipelines and business intelligence dashboards
+- Design workflow automation that reduces operational lifecycles by 70%+
 
 ## Featured Projects
 

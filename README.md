@@ -1,14 +1,15 @@
-# Hi, I'm Shiyao 👋
+# Hi, I'm Shiyao
 
 Visit the site [here](https://eaziym.github.io/shiyao.me/)
 
-I'm a curious problem solver who leverages AI and automation to create impactful solutions. With a background in both technology and business, I enjoy tackling real-world inefficiencies through innovative approaches.
+I'm a Software Engineer and problem solver who builds AI-powered automation solutions to create real impact. Currently at PKF-CAP building analytics platforms and workflow automation. With a background spanning software engineering, data analytics, and business, I turn complex technical challenges into elegant, user-friendly solutions.
 
 ## What I Do
 
-- 🤖 Build AI-powered automation solutions
-- 🛠️ Develop tools that solve practical problems
-- 🌱 Grow communities and share knowledge
+- Build AI-powered automation and multi-agent systems
+- Develop full-stack web applications (Next.js, React, Flask)
+- Create data-driven tools for finance and analytics
+- Grow communities and share knowledge
 
 ## Featured Projects
 

@@ -3,18 +3,22 @@ layout: project
 title: SG Internship Listing
 date: 2024-04-01
 tags:
-  [Web Scraping, Data Analytics, Python, Selenium, Bing API, Community Building]
+  [Web Scraping, Data Analytics, Python, Selenium, GitHub Pages, Community Building]
 problem: "Job searching process is fragmented and time-consuming, with students spending hours manually searching across multiple platforms and filling repetitive applications"
-approach: "Built an automated job aggregation platform that consolidates opportunities across 250+ companies, with weekly updates and a growing community of 380+ students"
+approach: "Built an automated job aggregation platform using Selenium to gather 550+ positions from 30+ companies, hosted on GitHub Pages with weekly updates and a growing community of 300+ members"
 url: /shiyao.me/projects/sg-internship
 demo_url: "https://eaziym.github.io/sg-internship-listing"
 metrics:
-  - label: Company Count
-    value: "250+"
-  - label: Active Listings
-    value: "1000+"
-  - label: Community Size
-    value: "380+"
+  - label: Total Views
+    value: "13,000+"
+  - label: Internship Positions
+    value: "550+"
+  - label: Companies Tracked
+    value: "30+"
+  - label: Community Members
+    value: "300+"
+  - label: Social Engagement
+    value: "569 Likes"
 cover_image: /assets/images/sg-intern-cover.png
 images:
   - path: /assets/images/sg-intern-jobs.png
@@ -114,10 +118,11 @@ Based on actual listings:
 
 #### Current Statistics
 
-- 250+ companies covered
-- ~1,000 active job postings
-- Weekly automated updates
-- 380+ active community members
+- **550+ internship positions** gathered from **30+ companies**
+- Hosted on **GitHub Pages** with weekly updates
+- **13,000+ total views** across platforms
+- **569 likes**, **133 comments**, **469 favourites** on Xiaohongshu (social media)
+- **300+ active community members** for career info exchange
 
 #### Community Engagement
 
@@ -125,6 +130,8 @@ Based on actual listings:
 - Application experience exchange
 - Industry insights discussion
 - Career guidance support
+- Active student and fresh grad network
+- Weekly listing updates and notifications
 
 ### 6. Technical Stack
 
